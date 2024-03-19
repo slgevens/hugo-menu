@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+
+  <a href="{{ .Site.BaseURL }}">Home</a>
+  <div class="container">
+    {{ range .Params.sections }}
+    <div class="menu-item">
+        <h2>{{ .title }}</h2>
+        {{ with .items }}
+        {{ range . }}
+        <div>
+            <h3>{{ .name }}</h3>
+            <p>{{ .description }}</p>
+            <span class="price">{{ .price }}</span>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+    {{ end }}
+  </div>
+
+  {{ .Content }}
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+{{ end }}
+
+
