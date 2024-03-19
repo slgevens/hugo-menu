@@ -27,4 +27,16 @@ menu:
     items:
       - name: "Deconstructed Cheesecake"
         description: "A delightful twist on classic cheesecake, featuring a graham cracker crumble base, creamy ricotta filling, and a tart berry compote."
+
+  - courseTitle: "Wine List"
+    items:
+      - name: "Pinot Noir"
+        description: "Medium-bodied Pinot Noir with fruity notes."
+
+      - name: "Cabernet Sauvignon"
+        description: "Rich and deep in flavor, notes of blackcurrant, blackberry, plum, cedar and tobacco,"
+      
+      - name: "Ice Wine"
+        description: "Sweet and decadent Ice Wine to perfectly match the sweetness of dessert."
+
 ---
