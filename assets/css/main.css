@@ -1,8 +1,11 @@
 
 body {
-  font-family: 'Georgia', serif;
+  font-family: "Gelasio", serif;
+  font-weight: 400;
+  font-style: normal;
   background-color: #f9f9f9;
   margin: 50px;
+  text-align: center;
 }
 
 header {
@@ -19,37 +22,42 @@ footer {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  text-align: center;
 }
 
 h1 {
-  text-align: center;
   font-size: 3rem;
-  color: #333;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .menu-item {
-  background-color: #f9f9f9;
   margin-bottom: 30px;
   padding: 20px;
 }
 
 h2 {
-  color: #4d4d4d;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
+  text-decoration: underline;
+  text-underline-offset: 15px;
   margin-bottom: 10px;
 }
 
 h3 {
-  color: #666;
   font-size: 1.3rem;
   margin-bottom: 5px;
+  color: #333;
 }
 
 p {
-  color: #777;
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 10px;
+  color: #737373;
+}
+
+hr {
+  width: 5%;
+  height: 4px;
+  color: #676767;
+  background-color: #ababab;
+  border: none;
 }
