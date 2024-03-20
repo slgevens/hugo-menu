@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <div class="back-arrow-container">
+    <a href="{{ .Site.BaseURL }}">
+      <span class="material-symbols-outlined">
+        arrow_back
+        </span>
+    </a>
+  </div>  
+
+  <h1>{{ .Title }}</h1>
+  <div class="container">
+    {{ range .Params.menu }}
+    <div class="menu-item">
+        <h2>{{ .courseTitle }}</h2>
+        {{ with .items }}
+        {{ range . }}
+        <div>
+            <h3>{{ .name }}</h3>
+            <p>{{ .description }}</p>
+        </div>
+        <hr>
+        {{ end }}
+        {{ end }}
+    </div>
+    {{ end }}
+  </div>
+
+  {{ .Content }}
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+{{ end }}
+
+

@@ -1,0 +1,15 @@
+{{ define "main" }}
+  
+  <div id="home-content-container">
+    {{ .Content }}
+  </div>
+  <span class="material-symbols-outlined">
+    arrow_downward
+  </span>
+  <div id="home-menus-container">
+    {{ range site.RegularPages }}
+      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+      {{ .Summary }}
+    {{ end }}
+  </div>
+{{ end }}
