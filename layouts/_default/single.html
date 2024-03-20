@@ -1,5 +1,12 @@
 {{ define "main" }}
-  <a href="{{ .Site.BaseURL }}">Home</a>  
+  <div class="back-arrow-container">
+    <a href="{{ .Site.BaseURL }}">
+      <span class="material-symbols-outlined">
+        arrow_back
+        </span>
+    </a>
+  </div>  
+
   <h1>{{ .Title }}</h1>
   <div class="container">
     {{ range .Params.menu }}
