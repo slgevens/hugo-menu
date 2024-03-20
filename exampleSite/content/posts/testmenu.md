@@ -7,22 +7,27 @@ menu:
     items:
       - name: "Beetroot Gazpacho Shooter"
         description: "Chilled beetroot soup with a dollop of creme fraiche."
+
   - courseTitle: "First Course"
     items:
       - name: "Pan-Seared Scallops"
         description: "Seared scallops with pea puree, crispy prosciutto, and balsamic glaze."
+
   - courseTitle: "Second Course"
     items:
       - name: "Duck Breast with Cherry Sauce"
         description: "Seared duck breast served with a sweet and tart cherry sauce, roasted Brussels sprouts, and potato gratin."
+
   - courseTitle: "Palate Cleanser"
     items:
       - name: "Lemon Sorbet"
         description: "Light and refreshing lemon sorbet to cleanse the palate before the main course."
+
   - courseTitle: "Main Course"
     items:
       - name: "Filet Mignon with Truffle Mashed Potatoes"
         description: "Tenderloin steak cooked to perfection, served with creamy truffle mashed potatoes and seasonal vegetables."
+        
   - courseTitle: "Dessert"
     items:
       - name: "Deconstructed Cheesecake"
@@ -38,5 +43,4 @@ menu:
       
       - name: "Ice Wine"
         description: "Sweet and decadent Ice Wine to perfectly match the sweetness of dessert."
-
 ---
