@@ -23,3 +23,9 @@ You can run this site without installing it as a hugo theme using the following 
 ```
 hugo server --source=exampleSite --theme=../..
 ```
+
+# Github Codespace
+
+```
+hugo server --source=exampleSite --theme=../.. --baseURL=https://improved-pancake-7vgq497rpg72rw59-1313.app.github.dev/ --appendPort=false
+```
