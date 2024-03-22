@@ -4,9 +4,24 @@
   </div>
   <div id="home-content-container">
     {{ .Content }}
-    <span class="material-symbols-outlined">
-      menu_book
-      </span>
+    
+    <div id="contact">
+      <div class="contact-item">
+        <a href="tel:{{ .Site.Params.phone }}">
+          <span class="material-symbols-outlined">
+            call
+          </span>
+        </a>
+      </div>
+
+      <div class="contact-item">
+        <a href="{{ .Site.Params.bookingUrl }}">
+          <span class="material-symbols-outlined">
+            calendar_month
+          </span>
+        </a>
+      </div>
+    </div>
   </div>
   <div id="home-menus-container">
     {{ range site.RegularPages }}
