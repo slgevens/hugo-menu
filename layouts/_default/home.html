@@ -1,14 +1,16 @@
 {{ define "main" }}
-  
+  <div class="hero">
+    <h1>{{ site.Title }}</h1>
+  </div>
   <div id="home-content-container">
     {{ .Content }}
+    <span class="material-symbols-outlined">
+      menu_book
+      </span>
   </div>
-  <span class="material-symbols-outlined">
-    arrow_downward
-  </span>
   <div id="home-menus-container">
     {{ range site.RegularPages }}
-      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+    <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
       {{ .Summary }}
     {{ end }}
   </div>
