@@ -12,6 +12,7 @@ menu:
     items:
       - name: "Classic Spaghetti Bolognese"
         description: "A timeless Italian comfort food. Hearty bolognese sauce simmered for hours, served over perfectly cooked spaghetti."
+        allergens: ['Gluten', 'Dairy', 'Egg']
 
   - courseTitle: "Drinks"
     items:
