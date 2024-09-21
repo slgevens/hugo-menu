@@ -17,8 +17,8 @@
         <div>
             <h3>{{ .name }}</h3>
             <p>{{ .description }}</p>
-            {{ range .allergens }}
-              <span class="allergen-item"><i>{{ . }}</span></i>
+            {{ if .allergens }}
+              <span class="allergen-item"><i>Contains: {{ delimit .allergens ", " }}</i></span>
             {{ end }}
         </div>
         <hr>
