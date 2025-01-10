@@ -27,6 +27,9 @@
     </div>
     {{ end }}
   </div>
+  <div id="publish_date">
+    <p>Published Date - {{ .Date | time.Format ":date_medium" }}</p>
+  </div>
 
   {{ .Content }}
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}

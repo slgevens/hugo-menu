@@ -93,3 +93,9 @@ a {
   left: 10px;
   top: 10px;
 }
+
+#publish_date p{
+  padding: 20px;
+  font-size: 1rem;
+  opacity: 50%;
+}
