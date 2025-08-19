@@ -1,6 +1,7 @@
-baseURL = '/'
+baseURL = 'http://localhost'
 languageCode = 'en-us'
 title = 'Bistro Lumière'
+theme = 'hugo-menu'
 
 [params]
     bookingUrl = 'https://www.example.co.uk'

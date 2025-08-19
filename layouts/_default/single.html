@@ -16,7 +16,7 @@
         {{ range . }}
         <div>
             <h3>{{ .name }}</h3>
-            <p>{{ .description }}</p>
+            <p>{{ .description | markdownify }}</p>
             {{ if .allergens }}
               <span class="allergen-item"><i>Contains: {{ delimit .allergens ", " }}</i></span>
             {{ end }}
