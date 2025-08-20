@@ -76,11 +76,15 @@ a {
 }
 
 #home-content-container {
-  padding: 50px;
+  padding: 30px;
 }
 
 #home-menus-container {
   padding: 0px 50px 50px;
+}
+
+#home-menus-container a {
+  color: #737373;
 }
 
 .back-arrow-container {
@@ -106,4 +110,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.footer p {
+  color: #56c1ff;
 }
